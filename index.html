@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه اصلی</title>
+    <link rel="stylesheet" href="./css/bootstrap.rtl.css">  
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/slick.css">
+  
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body dir="rtl">
+    <header class="px-5 my-3   ">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid">
+            <a class="navbar-brand text-d-blue" href="#">Betoo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-2 nav-size">
+                  <a class="nav-link active" aria-current="page" href="#">خانه</a>
+                </li>
+                <li class="nav-item mx-2 nav-size">
+                  <a class="nav-link" href="./index2.html">محصولات</a>
+                </li>
+                <li class="nav-item mx-2 nav-size">
+                  <a class="nav-link" href="#">مقایسه</a>
+                </li>
+                <li class="nav-item mx-2 nav-size">
+                  <a class="nav-link" href="#">راهنمای خرید</a>
+                </li>
+                <li class="nav-item mx-2 nav-size">
+                  <a class="nav-link" href="#"> ارتباط با ما</a>
+                </li>
+              </ul>
+              <div class="w-50">
+              <form class="d-flex w-100  position-relative ">
+                <input class="form-control nav-size ps-5 me-2 border-0 bg-blue " type="search" placeholder="محصول مورد نیاز خود را چستوجو کنید..." aria-label="Search">
+                <button class="btn  position-absolute right-0 " type="submit">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#526699" class="bi bi-search" viewBox="0 0 16 16">
+                      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                    </svg>
+                </button>
+                <button class="btn  position-absolute svg-input d-lg-block d-none" type="submit">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#526699" class="bi bi-sliders" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M11.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M9.05 3a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0V3zM4.5 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M2.05 8a2.5 2.5 0 0 1 4.9 0H16v1H6.95a2.5 2.5 0 0 1-4.9 0H0V8zm9.45 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m-2.45 1a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0v-1z"/>
+                    </svg>
+                </button>
+                <button class="btn bg-btn radius-7 p-1 me-2">
+                  <a href="./cart.html"><svg width="22" height="22" fill="#fff" class="" viewBox="0 0 16 16">
+                      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg></a>
+                </button>
+                <button class="btn bg-btn radius-7 p-1 me-2 ">
+                   <a href="/user.html"><svg width="22" height="22" fill="#fff" class="" viewBox="0 0 16 16">
+                      <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                    </svg></a>
+                </button>
+              </form>
+              </div>
+            </div>
+          </div>
+      </nav> 
+      <hr class="hr-nav mt-1">
+    </header>
+    <main class="px-5">
+      <section class=" rounded-20 bg-blue">
+        <div class="container  my-4   slid">
+          <div class="row">
+            <div class="col-md-6 col-12 ">  
+              <h2>
+                تجربه حسی نو با Betoo
+              </h2>
+              <h5 class="my-3 mb-4 line-hight">
+                برترین محصولات اپل رو در <span class="text-d-blue ">Betoo</span><br>
+                پیدا کنید و به روز باشین
+              </h5>
+              <div class="d-flex justify-content-start" id="text-col-12">
+                <div class="btn text-white bg-btn rounded-10 px-3 py-md-1 py-0 me-2 "><a href="./index2.html" class="link text-white">بزن بریم !</a></div>
+                <div class="btn  border-btn rounded-10 px-3 py-md-1  py-0"> مقایسه کن</div>
+              </div>
+            </div>
+            <div class="col-6 d-md-block d-none bacground-img  ">
+           
+         
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="my-md-5 my-4  text-center">
+        <div class="fs-md-4 fs-6 fw-bold">دسته بندی</div>
+        <div class="d-flex justify-content-center mt-3">
+          <div class="card card-box radius-7 mx-2 py-3 circle">
+            <img src="./img/iphone.png "width="30%" class="mx-auto mb-md-2 mb-0  py-md-3 py-0" alt="">
+            <small class="fw-bold d-md-block d-none">آیفون</small>
+          </div>
+          <div class="card  card-box radius-7 mx-2 circle">
+            <img src="./img/watch2.png "  width="30%" class="mx-auto mb-md-2 mb-0  py-md-3 py-0" alt="">
+            <small class="fw-bold d-md-block d-none">اپل واچ</small>
+          </div>
+          <div class="card card-box radius-7 mx-2 circle">
+            <img src="./img/headphones-edit-1.png "width="35%"  class="mx-auto mb-md-2 mb-0  py-md-3 py-0 " alt="">
+            <small class="fw-bold d-md-block d-none ">ایرپاد</small>
+          </div>
+          <div class="card card-box radius-7 mx-2 circle">
+            <img src="./img/ipad2.png " width="55%" class="mx-auto mb-md-2 mb-0  py-md-3 py-0" alt="">
+            <small class="fw-bold d-md-block d-none ">آیپد</small>
+          </div>
+          <div class="card card-box  radius-7 mx-2 circle ">
+            <img src="./img/ibook.png " width="35%" class="mx-auto mb-md-2 mb-0  py-md-3 py-0" alt="">
+            <small class="text-center fw-bold d-md-block d-none">مک بوک</small>
+          </div>
+          <div class="card card-box radius-7 mx-2 circle">
+            <img src="./img/imack.png "width="40%" class="mx-auto mb-md-2 mb-0  py-md-3 py-0" alt="">
+            <small class="fw-bold d-md-block d-none">آی مک</small>
+          </div>
+        </div>
+      </section>
+      <section class="my-5 mt-6 pt-4 text-center">
+        <div class="fs-md-4 fs-6 fw-bold"> پرفروش ترین محصولات
+          <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M10.75 2.44995C11.44 1.85995 12.57 1.85995 13.27 2.44995L14.85 3.81005C15.15 4.07005 15.71 4.28002 16.11 4.28002H17.81C18.87 4.28002 19.74 5.14996 19.74 6.20996V7.91003C19.74 8.30003 19.95 8.87004 20.21 9.17004L21.57 10.75C22.16 11.44 22.16 12.57 21.57 13.27L20.21 14.85C19.95 15.15 19.74 15.71 19.74 16.11V17.8101C19.74 18.8701 18.87 19.74 17.81 19.74H16.11C15.72 19.74 15.15 19.95 14.85 20.21L13.27 21.5699C12.58 22.1599 11.45 22.1599 10.75 21.5699L9.17002 20.21C8.87002 19.95 8.31001 19.74 7.91001 19.74H6.18C5.12 19.74 4.25 18.8701 4.25 17.8101V16.1C4.25 15.71 4.04001 15.15 3.79001 14.85L2.44 13.26C1.86 12.57 1.86 11.45 2.44 10.76L3.79001 9.17004C4.04001 8.87004 4.25 8.31004 4.25 7.92004V6.20996C4.25 5.14996 5.12 4.28002 6.18 4.28002H7.91001C8.30001 4.28002 8.87002 4.07005 9.17002 3.81005L10.75 2.44995Z" stroke="#4f9650" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M9.89001 14.82L11.34 15.94C11.53 16.13 11.95 16.22 12.23 16.22H14C14.56 16.22 15.17 15.8 15.31 15.24L16.43 11.82C16.66 11.17 16.24 10.6 15.54 10.6H13.67C13.39 10.6 13.16 10.3701 13.2 10.0401L13.43 8.54008C13.52 8.12008 13.24 7.65005 12.82 7.51005C12.45 7.37005 11.98 7.56 11.79 7.84L9.87 10.69" stroke="#4f9650" stroke-width="1.5" stroke-miterlimit="10"></path> <path d="M7.5 14.8199V10.24C7.5 9.57999 7.78 9.34998 8.44 9.34998H8.91C9.56 9.34998 9.85001 9.57999 9.85001 10.24V14.8199C9.85001 15.4699 9.57 15.71 8.91 15.71H8.44C7.78 15.71 7.5 15.4799 7.5 14.8199Z" stroke="#4f9650" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+        </div>
+        
+        <div class="row mt-3">
+          <div class="col-lg-3 col-md-6 col-12  card border-0 radius-7  p-2">
+            <div class="modal fade" id="iphon1" tabindex="-1" aria-labelledby="iphon1Label" aria-hidden="true">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body ">
+                    <div class="card border-0 rounded-10 px-5 pb-3 mx-5 shadow bg-gray">
+                      <img src="./img/iph.png"width="200px" class="mx-auto mb-2  py-3" alt="">
+                      <div class=" text-start fw-bold">آیفون 15 پرو مکس</div>
+                      <ul class="nav d-flex flex-column my-3">
+                        <li class="nav-item d-flex justify-content-between my-1">
+                          <span>سایز :</span>
+                          <span> 6.7 اینچ</span>
+                          
+                          </li>
+                        <li class="nav-item d-flex justify-content-between my-1">
+                          <span>دوربین سلفی :</span>
+                          <span> 12 مگاپیکسل </span>
+                        </li>
+                        <li class="nav-item d-flex justify-content-between my-1">
+                          <span>رم :</span>
+                          <span>6 گیگابایتی</span>
+                        </li>
+                        <li class="nav-item d-flex justify-content-between  my-1">
+                          <span> ساعت :  </span>
+                          <span>4352 میلی آمپر</span>
+                        </li>
+                      </ul>
+                      <div class="d-flex justify-content-between my-2  ">
+                        <div class="text-danger ">84.000.000</div>
+                        <div>
+                          <small>4.8</small>
+                          <svg width="16px" height="16px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer justify-content-center border-0" >
+                    <button type="button" class="btn btn-primary rounded-10" dir="rtl">مشاهده ی نمونه های دیگر 
+                      <svg width="16" height="16" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-box p-4 rounded-20">
+              <div class="d-flex justify-content-between "> 
+                  <svg width="14" height="14" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                  </svg>
+                  <svg width="16" height="16" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                  </svg>
+              </div> 
+              <img src="./img/iph.png"width="200px" class="mx-auto mb-2  py-3" alt="">
+              <div class=" text-start fw-bold">آیفون 15 پرو مکس</div>
+              <div class="d-flex justify-content-between my-2 ">
+                <div class="text-danger ">84.000.000</div>
+                <div>
+                  <small>4.8</small>
+                  <svg width="16px" height="16px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+                </div>
+              </div>
+              <button type="button" class="btn rounded-10 text-white bg-btn mt-3" data-bs-toggle="modal" data-bs-target="#iphon1">  
+                مشاهده ی محصول
+                <svg width="16" height="16" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 card border-0 radius-7  p-2">
+            <div class="card-box p-4 rounded-20">
+              <div class="d-flex justify-content-between "> 
+                  <svg width="14" height="14" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                  </svg>
+                  <svg width="16" height="16" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                  </svg>
+              </div> 
+              <img src="./img/images (2) (1).png"width="110px" class="mx-auto mb-2  py-3" alt="">
+              <div class=" text-start fw-bold">  اپل واچ ultra 2</div>
+              <div class="d-flex justify-content-between my-2 ">
+                <div class="text-danger ">38.000.000</div>
+                <div>
+                  <small>4.7</small>
+                  <svg width="16px" height="16px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+                </div>
+              </div>
+              <div class="btn rounded-10 text-white bg-btn mt-3">  
+                مشاهده ی محصول
+                <svg width="16" height="16" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 card border-0 radius-7  p-2">
+            <div class="card-box p-4 rounded-20">
+              <div class="d-flex justify-content-between "> 
+                  <svg width="14" height="14" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                  </svg>
+                  <svg width="16" height="16" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                  </svg>
+              </div> 
+              <img src="./img/images (1).png"width="150px" class="mx-auto mb-2  py-3" alt="">
+              <div class=" text-start fw-bold">ایرپاد نسل 3</div>
+              <div class="d-flex justify-content-between my-2 ">
+                <div class="text-danger ">8.400.000</div>
+                <div>
+                  <small>4.4</small>
+                  <svg width="16px" height="16px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+                </div>
+              </div>
+              <div class="btn rounded-10 text-white bg-btn mt-3">  
+                مشاهده ی محصول
+                <svg width="16" height="16" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 card border-0 radius-7  p-2">
+            <div class="card-box p-4 rounded-20">
+              <div class="d-flex justify-content-between "> 
+                  <svg width="14" height="14" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                  </svg>
+                  <svg width="16" height="16" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                  </svg>
+              </div> 
+              <img src="./img/images (3).png"width="100px" class="mx-auto mb-2  py-3" alt="">
+              <div class=" text-start fw-bold">آیپد پرو مدل 2023</div>
+              <div class="d-flex justify-content-between my-2 ">
+                <div class="text-danger ">74.500.000</div>
+                <div>
+                  <small>4.4</small>
+                  <svg width="16px" height="16px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+                </div>
+              </div>
+              <div class="btn rounded-10 text-white bg-btn mt-3">  
+                مشاهده ی محصول
+                <svg width="16" height="16" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+        <div class="text-center text-muted mt-2 say d-md-block d-none">
+          <a href="./index2.html" class="link"> مشاهده همه </a>
+          <svg width="14" height="14" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+          </svg>
+        </div>
+      </section>
+      <section class="rounded-20 my-5 mt-6 py-4 bg-blue">
+        <div class="container slid">
+          <div class="row">
+            <div class="col-md-6 col-12">  
+              <div class="text-md-start text-center">
+                <h2 class="fw-bold mb-4">اپل واچ سری Ultra 2</h2>
+                <div class="text-muted fs-md-4 fs-6">پیام ها و تماس هارو در کنار زمانت  <br>مدیریت کن</div>
+              </div> 
+              <button class="btn rounded-10 text-white bg-btn mt-4  w-50">مشاهده و خرید
+                <svg width="14" height="14" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+              </button>
+            </div>
+            <div class="col-md-6  watch-box d-md-block d-none "> 
+              <div class="watch-boxs">
+                <img src="./img/svgWatch (3).png" class="" width="35%" alt="">
+                <img src="./img/aaa.png" class="mt-3"width="35%" alt="">
+              </div>
+              <img src="./img/images (2) (1).png" class="img-whath " alt=""> 
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="my-5 mt-6 pt-4 text-center">
+        <div class="fs-md-4 fs-6 fw-bold"> فروش ویژه
+          <svg fill="#f71818" height="22px" width="22px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <polygon points="426.667,213.333 284.444,213.333 284.444,0 85.333,298.667 227.556,298.667 227.556,512 "></polygon> </g> </g> </g></svg>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-3 col-md-6 col-12 card border-0 radius-7  p-2">
+            <div class="card-box p-4 rounded-20">
+              <div class="d-flex justify-content-between "> 
+                  <svg width="14" height="14" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                  </svg>
+                  <svg width="16" height="16" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                  </svg>
+              </div> 
+              <img src="./img/mack13.png"width="150px" class="mx-auto mb-2  py-3" alt="">
+              <div class=" text-start fw-bold">مک بوک پرو 15 اینچ</div>
+              <div class="d-flex justify-content-between my-2 ">
+                <div>
+                  <span class="text-danger ">46.200.000</span><br>
+                  <del class="text-muted small">53.000.000</del> 
+                </div>
+                <div>
+                  <small>4.1</small>
+                  <svg width="16px" height="16px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+                </div>
+              </div>
+              <div class="btn rounded-10 text-white bg-btn mt-3">  
+                مشاهده ی محصول
+                <svg width="16" height="16" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 card border-0 radius-7  p-2">
+            <div class="card-box p-4 rounded-20">
+              <div class="d-flex justify-content-between "> 
+                  <svg width="14" height="14" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                  </svg>
+                  <svg width="16" height="16" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                  </svg>
+              </div> 
+              <img src="./img/appSE.png"width="140px" class="mx-auto mb-2  py-3" alt="">
+              <div class=" text-start fw-bold">  اپل واچ مدل SE</div>
+              <div class="d-flex justify-content-between my-2 ">
+                <div>
+                  <span class="text-danger ">11.500.000</span><br>
+                  <del class="text-muted small">14.600.000</del> 
+                </div>
+                <div>
+                  <small>4.6</small>
+                  <svg width="16px" height="16px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+                </div>
+              </div>
+              <div class="btn rounded-10 text-white bg-btn mt-3">  
+                مشاهده ی محصول
+                <svg width="16" height="16" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12  card border-0 radius-7  p-2">
+            <div class="card-box p-4 rounded-20">
+              <div class="d-flex justify-content-between "> 
+                  <svg width="14" height="14" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                  </svg>
+                  <svg width="16" height="16" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                  </svg>
+              </div> 
+              <img src="./img/iphone-13.png"width="80px" class="mx-auto mb-2  py-3" alt="">
+              <div class=" text-start fw-bold"> آیفون 13 پرومکس</div>
+              <div class="d-flex justify-content-between my-2 ">
+                <div>
+                  <apan class="text-danger ">64.000.000</span><br>
+                  <del class="text-muted small">72.400.000</del> 
+                </div>
+                <div>
+                  <small>4.8</small>
+                  <svg width="16px" height="16px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+                </div>
+              </div>
+              <div class="btn rounded-10 text-white bg-btn mt-3">  
+                مشاهده ی محصول
+                <svg width="16" height="16" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 card border-0 radius-7  p-2">
+            <div class="card-box p-4 rounded-20">
+              <div class="d-flex justify-content-between "> 
+                  <svg width="14" height="14" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                  </svg>
+                  <svg width="16" height="16" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                  </svg>
+              </div> 
+              <img src="./img/imac-24.png"width="140px" class="mx-auto mb-2  py-3" alt="">
+              <div class=" text-start fw-bold">آی مک 24 اینچ  </div>
+              <div class="d-flex justify-content-between my-2 ">
+                <div>
+                  <span class="text-danger ">69.800.000</span><br>
+                  <del class="text-muted small">70.000.000</del> 
+                </div>
+                <div>
+                  <small>4.6</small>
+                  <svg width="16px" height="16px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+                </div>
+              </div>
+              <div class="btn rounded-10 text-white bg-btn mt-3">  
+                مشاهده ی محصول
+                <svg width="16" height="16" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+        <div class="text-center text-muted mt-2 say d-md-block d-none">
+          <a class="link" href="./index2.html"> مشاهده همه </a>
+          <svg width="14" height="14" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+          </svg>
+        </div>
+      </section>
+      <section class="rounded-20 my-5 mt-6 py-4 bg-blue">
+        <div class="container slid">
+          <div class="row ">
+            <div class="col-md-6 ">  
+              <div class="text-start">
+                <h2 class="fw-bold mb-4">اپرپاد مکس 2023</h2>
+                <div class="text-muted fs-md-4 fs-6">  موسیقی رو با ایرپاد مکس لمس کن    </div>
+              </div> 
+              <button class="btn rounded-10 text-white bg-btn mt-4 w-50 ">مشاهده و خرید
+                <svg width="14" height="14" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+              </button>
+            </div>
+            <div class="col-md-6 arpad d-md-flex d-none"> 
+              
+              <img src="./img/airpad max.png" class="position-absolute " width="55%" alt=""> 
+              <img src="./img/airpad3.png" class=" MinArpad " alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="my-5 mt-6 pt-4 text-center">
+        <div class="fs-md-4 fs-6 fw-bold">  محصولات پیشنهادی
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-3 col-md-6 col-12 card border-0 radius-7  p-2">
+            <div class="card-box p-4 rounded-20">
+              <div class="d-flex justify-content-between "> 
+                  <svg width="14" height="14" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                  </svg>
+                  <svg width="16" height="16" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                  </svg>
+              </div> 
+              <img src="./img/ipadMini.png"width="130px" class="mx-auto mb-2  py-3" alt="">
+              <div class=" text-start fw-bold">   آیپد مینی 2021 </div>
+              <div class="d-flex justify-content-between my-2 ">
+                <div class="text-danger ">  25.300.000  </div>
+                <div>
+                  <small>4.5</small>
+                  <svg width="16px" height="16px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+                </div>
+              </div>
+              <div class="btn rounded-10 text-white bg-btn mt-3">  
+                مشاهده ی محصول
+                <svg width="16" height="16" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12  card border-0 radius-7  p-2">
+            <div class="card-box p-4 rounded-20">
+              <div class="d-flex justify-content-between "> 
+                  <svg width="14" height="14" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                  </svg>
+                  <svg width="16" height="16" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                  </svg>
+              </div> 
+              <img src="./img/apple9.png"width="130px" class="mx-auto mb-2  py-3" alt="">
+              <div class=" text-start fw-bold">  اپل واچ سری 9</div>
+              <div class="d-flex justify-content-between my-2 ">
+                <div class="text-danger">23.600.000    </div>
+                <div>
+                  <small>4.7</small>
+                  <svg width="16px" height="16px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+                </div>
+              </div>
+              <div class="btn rounded-10 text-white bg-btn mt-3">  
+                مشاهده ی محصول
+                <svg width="16" height="16" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 card border-0 radius-7  p-2">
+            <div class="card-box p-4 rounded-20">
+              <div class="d-flex justify-content-between "> 
+                  <svg width="14" height="14" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                  </svg>
+                  <svg width="16" height="16" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                  </svg>
+              </div> 
+              <img src="./img/iphone-12-mini-purple.png"width="130px" class="mx-auto mb-2  py-3" alt="">
+              <div class=" text-start fw-bold"> آیفون 12 مینی</div>
+              <div class="d-flex justify-content-between my-2 ">
+                  <div class="text-danger ">25.000.000</div>
+                <div>
+                  <small>4.5</small>
+                  <svg width="16px" height="16px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+                </div>
+              </div>
+              <div class="btn rounded-10 text-white bg-btn mt-3">  
+                مشاهده ی محصول
+                <svg width="16" height="16" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12  card border-0 radius-7  p-2">
+            <div class="card-box p-4 rounded-20">
+              <div class="d-flex justify-content-between "> 
+                  <svg width="14" height="14" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                  </svg>
+                  <svg width="16" height="16" fill="rgb(99, 99, 99)" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                  </svg>
+              </div> 
+              <img src="./img/images (1).png"width="170px" class="mx-auto mb-2  py-3" alt="">
+              <div class=" text-start fw-bold">  ایرپاد پرو نسل 2    </div>
+              <div class="d-flex justify-content-between my-2 ">
+                  <div class="text-danger ">10.500.000</div>
+                <div>
+                  <small>4.4</small>
+                  <svg width="16px" height="16px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+                </div>
+              </div>
+              <div class="btn rounded-10 text-white bg-btn mt-3">  
+                مشاهده ی محصول
+                <svg width="16" height="16" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center text-muted mt-2 say d-md-block d-none" > 
+          <a class="link" href="./index2.html">مشاهده همه</a>
+          <svg width="14" height="14" fill="currentColor" class="ms-1" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+          </svg>
+        </div>
+      </section>
+      <section class="my-5 mt-6 pt-5 text-center">
+        <div class="container text-center">
+          <div class="row ">
+            <div class="col-md-3 col-6 d-flex justify-content-center"> 
+              <svg width="50px" height="50px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#526699"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style>.cls-1{fill:#cbeee1;}.cls-2{fill:#cbeee1;}</style> </defs> <title></title> <g data-name="Layer 5" id="Layer_5"> <circle class="cls-1" cx="164.5" cy="340.5" r="21.5"></circle> <circle class="cls-2" cx="357.5" cy="340.5" r="21.5"></circle> <path d="M404.95,199.31c-11-11.94-26.73-18.47-44.16-18.47H315.31V155.29A8.36,8.36,0,0,0,307,147h-207a8.36,8.36,0,0,0-8.33,8.33V338.52a8.36,8.36,0,0,0,8.33,8.33h33.19a32.77,32.77,0,0,0,64.57,0H325.24a32.77,32.77,0,0,0,64.57,0h24.86a8.36,8.36,0,0,0,8.33-8.33v-86.1C422.93,230.41,416.75,212,404.95,199.31ZM108.26,163.62H298.65V330.26H196.23a32.73,32.73,0,0,0-61.66,0H108.26ZM165.4,357.34a16.11,16.11,0,1,1,16.11-16.11A16.12,16.12,0,0,1,165.4,357.34Zm192.12,0a16.11,16.11,0,1,1,16.11-16.11A16.12,16.12,0,0,1,357.52,357.34Zm48.74-27.15H388.35a32.73,32.73,0,0,0-61.66,0H315.38V197.5h45.48c28.05,0,45.48,21,45.48,54.92v77.76Z"></path> </g> </g></svg>
+              <span class="py-2 ms-1 fw-bold span">ارسال سریع</span>
+            </div>
+            <div class="col-md-3 col-6 d-flex justify-content-center"> 
+              <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3.83327 15.2485L4.56432 15.0809L3.83327 15.2485ZM3.83327 9.35323L4.56432 9.52078L3.83327 9.35323ZM20.1667 9.35323L19.4357 9.52079L20.1667 9.35323ZM20.1667 15.2485L19.4357 15.0809L20.1667 15.2485ZM14.8801 20.6589L15.0552 21.3882L14.8801 20.6589ZM9.11986 20.6589L9.29493 19.9296L9.11986 20.6589ZM9.11985 3.94279L9.29493 4.67207L9.11985 3.94279ZM14.8801 3.94279L15.0552 3.21351L14.8801 3.94279ZM8.82008 3C8.82008 2.58579 8.48429 2.25 8.07008 2.25C7.65587 2.25 7.32008 2.58579 7.32008 3H8.82008ZM7.32008 5.51375C7.32008 5.92796 7.65587 6.26375 8.07008 6.26375C8.48429 6.26375 8.82008 5.92796 8.82008 5.51375H7.32008ZM16.6799 3C16.6799 2.58579 16.3441 2.25 15.9299 2.25C15.5157 2.25 15.1799 2.58579 15.1799 3H16.6799ZM15.1799 5.51375C15.1799 5.92796 15.5157 6.26375 15.9299 6.26375C16.3441 6.26375 16.6799 5.92796 16.6799 5.51375H15.1799ZM4.56432 15.0809C4.14523 13.2524 4.14523 11.3493 4.56432 9.52078L3.10223 9.18568C2.63259 11.2347 2.63259 13.367 3.10223 15.416L4.56432 15.0809ZM19.4357 9.52079C19.8548 11.3493 19.8548 13.2524 19.4357 15.0809L20.8978 15.416C21.3674 13.367 21.3674 11.2347 20.8978 9.18568L19.4357 9.52079ZM14.7051 19.9296C12.9258 20.3568 11.0742 20.3568 9.29493 19.9296L8.94478 21.3882C10.9542 21.8706 13.0458 21.8706 15.0552 21.3882L14.7051 19.9296ZM9.29493 4.67207C11.0742 4.24493 12.9258 4.24493 14.7051 4.67207L15.0552 3.21351C13.0458 2.73111 10.9542 2.73111 8.94478 3.21351L9.29493 4.67207ZM9.29493 19.9296C6.95607 19.3682 5.11769 17.4953 4.56432 15.0809L3.10223 15.416C3.77946 18.3708 6.03739 20.6902 8.94478 21.3882L9.29493 19.9296ZM15.0552 21.3882C17.9626 20.6902 20.2205 18.3708 20.8978 15.416L19.4357 15.0809C18.8823 17.4953 17.0439 19.3682 14.7051 19.9296L15.0552 21.3882ZM14.7051 4.67207C17.0439 5.23355 18.8823 7.10642 19.4357 9.52079L20.8978 9.18568C20.2205 6.23089 17.9626 3.91147 15.0552 3.21351L14.7051 4.67207ZM8.94478 3.21351C6.03739 3.91147 3.77946 6.23089 3.10223 9.18568L4.56432 9.52078C5.11769 7.10641 6.95607 5.23355 9.29493 4.67207L8.94478 3.21351ZM4.14016 9.02886H19.8598V7.52886H4.14016V9.02886ZM7.32008 3V5.51375H8.82008V3H7.32008ZM15.1799 3V5.51375H16.6799V3H15.1799Z" fill="#526699"></path> <path d="M13.442 13.924C13.847 13.636 14.099 13.204 14.099 12.619C14.099 11.404 13.163 10.774 12.056 10.774C10.949 10.774 10.004 11.404 10.004 12.619C10.004 13.204 10.265 13.636 10.661 13.924C10.112 14.257 9.797 14.806 9.797 15.445C9.797 16.606 10.652 17.326 12.056 17.326C13.451 17.326 14.315 16.606 14.315 15.445C14.315 14.806 14 14.257 13.442 13.924ZM12.056 11.944C12.524 11.944 12.866 12.214 12.866 12.682C12.866 13.141 12.524 13.429 12.056 13.429C11.588 13.429 11.246 13.141 11.246 12.682C11.246 12.214 11.588 11.944 12.056 11.944ZM12.056 16.156C11.462 16.156 11.03 15.85 11.03 15.283C11.03 14.725 11.462 14.419 12.056 14.419C12.65 14.419 13.082 14.725 13.082 15.283C13.082 15.85 12.65 16.156 12.056 16.156Z" fill="#526699"></path> </g></svg>            
+              <span class="py-2 ms-1 fw-bold span"> 8 روز ضمانت بازگشت</span>
+            </div>
+            <div class="col-md-3 col-6 d-flex justify-content-center"> 
+              <svg fill="#526699" height="40px" width="40px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.001 512.001" xml:space="preserve" stroke="#526699"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M486.509,420.091L380.924,314.505l42.706-15.543c3.641-1.325,5.805-5.073,5.131-8.889l-11.44-64.877l32.939-57.053 c1.937-3.355,1.186-7.617-1.782-10.107l-50.466-42.345l-11.44-64.878c-0.673-3.815-3.987-6.596-7.862-6.596h-65.88L262.367,1.868 c-2.969-2.491-7.296-2.491-10.265,0l-50.465,42.346h-65.879c-3.875,0-7.189,2.781-7.862,6.596l-11.44,64.877l-50.467,42.346 c-2.968,2.49-3.719,6.752-1.782,10.107l32.94,57.053l-11.44,64.877c-0.674,3.816,1.49,7.563,5.131,8.889l40.899,14.885 L25.492,420.091c-2.197,2.198-2.92,5.474-1.85,8.392c1.069,2.919,3.735,4.951,6.833,5.209l65.527,5.462l5.462,65.526 c0.258,3.098,2.29,5.764,5.209,6.833c0.896,0.329,1.824,0.488,2.745,0.488c2.081,0,4.123-0.814,5.647-2.338l140.936-140.936 l140.936,140.936c1.525,1.524,3.566,2.338,5.647,2.338c0.921,0,1.85-0.159,2.745-0.488c2.919-1.069,4.951-3.735,5.208-6.833 L416,439.155l65.526-5.462c3.098-0.258,5.764-2.29,6.833-5.21C489.429,425.564,488.706,422.29,486.509,420.091z M115.946,486.201 l-4.593-55.105c-0.324-3.885-3.406-6.969-7.293-7.293l-55.105-4.593l99.338-99.338l4.451,1.62l32.939,57.053 c1.46,2.529,4.13,3.993,6.916,3.993c0.91,0,1.832-0.156,2.729-0.482l38.927-14.168L115.946,486.201z M263.744,344.904 l-3.781-1.375c-1.763-0.643-3.697-0.643-5.46,0l-5.6,2.038l-52.741,19.195l-31.043-53.768c-0.939-1.625-2.419-2.868-4.183-3.511 l-11.96-4.354l-46.381-16.88l10.782-61.141c0.327-1.85-0.009-3.754-0.947-5.38l-31.044-53.768l47.562-39.908 c1.438-1.206,2.405-2.88,2.729-4.728l10.781-61.142h62.085c1.878,0,3.695-0.661,5.132-1.868l47.56-39.908l47.56,39.908 c1.438,1.207,3.255,1.868,5.132,1.868h62.086l10.781,61.142c0.326,1.848,1.292,3.523,2.729,4.728l47.561,39.908l-31.043,53.768 c-0.939,1.625-1.274,3.53-0.948,5.379l10.782,61.141l-48.188,17.539l-10.154,3.696c-1.763,0.643-3.245,1.885-4.183,3.511 l-31.042,53.768l-54.55-19.854C263.753,344.906,263.748,344.906,263.744,344.904z M407.942,423.804 c-3.885,0.324-6.969,3.406-7.293,7.293l-4.592,55.105L276.334,366.476l42.806,15.581c0.897,0.327,1.819,0.482,2.729,0.482 c2.786,0,5.456-1.464,6.916-3.993l32.938-57.053l2.644-0.962l98.68,98.68L407.942,423.804z"></path> </g> </g> <g> <g> <path d="M256.002,68.521c-70.141,0-127.204,57.063-127.204,127.204s57.064,127.203,127.204,127.203 c70.141,0,127.203-57.063,127.203-127.203S326.142,68.521,256.002,68.521z M256.002,306.961 c-61.336,0-111.237-49.901-111.237-111.237S194.666,84.488,256.002,84.488c61.335,0,111.237,49.901,111.237,111.237 S317.337,306.961,256.002,306.961z"></path> </g> </g> <g> <g> <path d="M347.882,170.302c-1.069-3.29-4.134-5.517-7.593-5.517h-58.922l-18.207-56.038c-1.069-3.29-4.134-5.517-7.593-5.517 c-3.458,0-6.524,2.227-7.593,5.517l-18.208,56.038h-58.922c-3.458,0-6.524,2.227-7.593,5.517 c-1.069,3.289,0.102,6.893,2.901,8.926l47.669,34.633l-18.208,56.039c-1.069,3.289,0.102,6.893,2.901,8.926 c1.399,1.017,3.045,1.525,4.692,1.525s3.293-0.509,4.692-1.525l47.669-34.632l47.668,34.632c2.798,2.033,6.587,2.033,9.384,0 c2.798-2.032,3.968-5.636,2.901-8.926l-18.208-56.039l47.669-34.633C347.78,177.195,348.95,173.591,347.882,170.302z M283.235,204.354c-2.798,2.032-3.969,5.636-2.901,8.926l12.407,38.186l-32.483-23.599c-2.798-2.033-6.587-2.033-9.384,0 l-32.484,23.6l12.407-38.187c1.069-3.289-0.102-6.893-2.901-8.925l-32.482-23.601h40.153c3.458,0,6.524-2.227,7.593-5.517 l12.407-38.186l12.406,38.186c1.069,3.29,4.134,5.517,7.593,5.517h40.153L283.235,204.354z"></path> </g> </g> </g></svg>            
+              <span class="py-2 ms-1 fw-bold span"> تضمین اصالت کالا</span>
+            </div>
+            <div class="col-md-3 col-6 d-flex justify-content-center"> 
+              <svg fill="#526699" height="40px" width="40px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 391.961 391.961" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M142.293,89.456c2.175,4.47,0.411,9.856-4.058,12.031C92.006,123.985,63.48,169.879,63.48,221.259v36.332 c0,4.971-4.415,9.371-9.385,9.371H35.333c-15.308,0-27.853-12.824-27.853-28.131v-41.042c0-12.095,7.786-22.717,19.324-26.432 c4.731-1.521,9.836,1.077,11.36,5.809s-1.1,9.802-5.832,11.325c-4.008,1.291-6.853,5.114-6.853,9.298v41.042 c0,5.382,4.471,10.131,9.853,10.131H45.48v-27.702c0-28.889,7.988-56.973,23.464-81.214c15.06-23.589,36.104-42.519,61.221-54.743 C134.635,83.127,140.118,84.987,142.293,89.456z M244.406,109.016c4.421-4.508,8.597-8.767,8.597-18.895 c0-14.057-11.438-25.494-25.496-25.494c-14.058,0-25.494,11.437-25.494,25.494c0,4.971,4.029,9,9,9s9-4.029,9-9 c0-4.132,3.362-7.494,7.496-7.494c4.132,0,7.494,3.362,7.494,7.494c0,2.775,0,2.775-3.448,6.292 c-0.525,0.535-1.083,1.104-1.676,1.721l-25.263,26.375c-0.072,0.075-0.135,0.151-0.135,0.228v0.001c0,0.005-0.088,0.011-0.093,0.017 c-0.003,0.003-0.045,0.006-0.048,0.01c-0.003,0.002-0.024,0.005-0.026,0.008c-0.698,0.782-1.245,1.656-1.623,2.578 c-0.431,1.052-0.673,2.203-0.673,3.41c0,1.265,0.258,2.468,0.729,3.56c0.461,1.072,0.986,2.071,1.881,2.93 c0.002,0.002-0.147,0.004-0.147,0.006v0.001c0,0.006,0.165-0.296,0.17-0.296h0.077c0.007,0,0.051,0.169,0.057,0.175 c0.001,0.001,0.021,0.08,0.021,0.081c0.884,0.836,1.901,1.498,2.971,1.909c0.885,0.34,1.842,0.564,2.835,0.607 c0.009,0.002,0.018,0.111,0.026,0.111c0.124,0.005,0.25,0.118,0.374,0.118c0.01,0,0.019,0,0.028,0h32.328c4.971,0,9-4.029,9-9 s-4.029-9-9-9h-11.228l10.72-11.257C243.407,110.135,243.922,109.51,244.406,109.016z M384.48,197.787v41.042 c0,15.307-12.045,28.131-27.353,28.131h-16.622c-5.46,17-14.121,33.477-25.787,48.188c-19.169,24.173-45.546,41.749-74.88,50.601 c-1.319,14.807-13.792,26.21-28.933,26.21h-29.349c-16.017,0-29.048-12.982-29.048-28.999c0-16.02,13.031-29.001,29.048-29.001 h29.349c10.542,0,19.791,5.838,24.882,14.264c55.473-17.164,93.578-68.199,93.578-126.965c0-13.29-1.936-26.315-5.763-38.857 c-17.421,13.779-39.416,22.015-63.301,22.015c-56.363,0-102.218-45.849-102.218-102.211S203.939,0,260.303,0 S362.52,45.878,362.52,102.24c0,25.336-9.264,48.593-24.584,66.472c6.259,16.832,9.43,34.617,9.43,52.732 c0,9.278-0.819,18.517-2.434,27.517h12.195c5.382,0,9.353-4.749,9.353-10.131v-41.042c0-4.185-2.646-8.008-6.654-9.298 c-4.731-1.523-7.179-6.593-5.657-11.325c1.524-4.731,6.491-7.333,11.223-5.809C376.932,175.07,384.48,185.692,384.48,197.787z M221.954,363.107c0-0.734-0.072-1.258-0.209-1.952c-0.024-0.106-0.047-0.309-0.067-0.415c-1.123-4.912-5.526-8.779-10.771-8.779 h-29.349c-6.092,0-11.048,4.906-11.048,10.998c0,6.095,4.956,11.002,11.048,11.002h29.349 C216.998,373.961,221.954,369.198,221.954,363.107z M344.52,102.194c0-46.438-37.78-84.217-84.218-84.217 s-84.218,37.78-84.218,84.217s37.78,84.217,84.218,84.217S344.52,148.632,344.52,102.194z M309.536,64.961h0.027h-0.041 c-4.971,0-9.04,3.696-9.04,8.667v16.707c0,4.052-3.426,7.32-7.501,7.32c-4.131,0-7.499-3.362-7.499-7.494V73.627 c0-4.971-4.029-9-9-9s-9,4.029-9,9V90.16c0,14.057,11.443,25.494,25.501,25.494c2.606,0,5.499-0.393,7.499-1.123v16.23 c0,4.971,4.029,9,9,9s9-4.029,9-9v-40.28c0-0.107,0-0.214,0-0.321V73.627C318.48,68.657,314.506,64.961,309.536,64.961z"></path> </g></svg>            
+              <span class="py-2 ms-2 fw-bold span"> پشتیبانی 24 ساعته</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="rounded-20 mx-md-5 mx-1 bg-blue mb-md-4 mb-1" dir="rtl">
+      <footer class="py-5 pb-3">
+          <div class="row me-0 justify-content-center">
+          <div class="col-2">
+              <h5>دسترسی سریع</h5>
+              <ul class="nav flex-column mt-md-4 md-3">
+              <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 text-dark">خانه</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">پرفروش ترین</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">فروش وپژه</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">محصولات پیشنهادی</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark ">راهنمای خرید</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark"> ارتباط با ما</a></li>
+              </ul>
+          </div>
+  
+          <div class="col-2">
+              <h5>دسته بندی</h5>
+              <ul class="nav flex-column mt-md-4 md-3">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">آیفون</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">اپل واچ</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">ایرپاد</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">آیپد</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark ">مک بوک</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark"> آی مک</a></li>
+              </ul>
+          </div>
+  
+          <div class="col-2">
+              <h5>ارتباط با ما</h5>
+              <ul class="nav flex-column mt-md-4 md-3">
+              <li class="nav-item mb-md-3 mb-2"><a href="#" class="nav-link p-0 text-dark">
+                  <svg class="me-2" width="20px" height="20px" viewBox="0 0 24 24" fill="none" ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2848 18.9935C12.1567 19.0875 12.0373 19.1728 11.9282 19.2493C11.8118 19.1721 11.6827 19.0833 11.5427 18.9832C10.8826 18.5109 10.0265 17.8176 9.18338 16.9529C7.45402 15.1792 6 12.9151 6 10.5C6 7.18629 8.68629 4.5 12 4.5C15.3137 4.5 18 7.18629 18 10.5C18 12.8892 16.4819 15.1468 14.6893 16.9393C13.8196 17.8091 12.9444 18.5099 12.2848 18.9935ZM19.5 10.5C19.5 16.5 12 21 12 21C11.625 21 4.5 16.5 4.5 10.5C4.5 6.35786 7.85786 3 12 3C16.1421 3 19.5 6.35786 19.5 10.5ZM13.5 10.5C13.5 11.3284 12.8284 12 12 12C11.1716 12 10.5 11.3284 10.5 10.5C10.5 9.67157 11.1716 9 12 9C12.8284 9 13.5 9.67157 13.5 10.5ZM15 10.5C15 12.1569 13.6569 13.5 12 13.5C10.3431 13.5 9 12.1569 9 10.5C9 8.84315 10.3431 7.5 12 7.5C13.6569 7.5 15 8.84315 15 10.5Z" fill="#474748"></path> </g></svg>
+                  تهران خیابان ولیعصر 
+              </a></li>
+              <li class="nav-item mb-md-3 mb-2"><a href="#" class="nav-link p-0 text-dark">
+                  <svg class="me-2" width="25px" height="25px" viewBox="0 -0.5 25 25" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M6.24033 8.16795C6.99433 7.37295 7.26133 7.14995 7.58233 7.04695C7.80482 6.98843 8.03822 6.98499 8.26233 7.03695C8.55733 7.12295 8.63433 7.18795 9.60233 8.15095C10.4523 8.99695 10.5363 9.08895 10.6183 9.25095C10.7769 9.54253 10.8024 9.88825 10.6883 10.1999C10.6043 10.4349 10.4803 10.5909 9.96533 11.1089L9.62933 11.4459C9.54093 11.5356 9.51997 11.6719 9.57733 11.7839C10.3232 13.0565 11.3812 14.1179 12.6513 14.8679C12.7978 14.9465 12.9783 14.921 13.0973 14.8049L13.4203 14.4869C13.6199 14.2821 13.8313 14.0891 14.0533 13.9089C14.4015 13.6935 14.8362 13.6727 15.2033 13.8539C15.3823 13.9379 15.4423 13.9929 16.3193 14.8669C17.2193 15.7669 17.2483 15.7959 17.3493 16.0029C17.5379 16.3458 17.536 16.7618 17.3443 17.1029C17.2443 17.2949 17.1883 17.3649 16.6803 17.8839C16.3733 18.1979 16.0803 18.4839 16.0383 18.5259C15.6188 18.8727 15.081 19.043 14.5383 19.0009C13.5455 18.9101 12.5847 18.6029 11.7233 18.1009C9.81416 17.0894 8.18898 15.6155 6.99633 13.8139C6.73552 13.4373 6.50353 13.0415 6.30233 12.6299C5.76624 11.7109 5.48909 10.6638 5.50033 9.59995C5.54065 9.04147 5.8081 8.52391 6.24033 8.16795Z" stroke="#474748" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M14.8417 4.29409C14.4518 4.15416 14.0224 4.35677 13.8824 4.74664C13.7425 5.1365 13.9451 5.56598 14.335 5.70591L14.8417 4.29409ZM18.7868 10.0832C18.9333 10.4707 19.3661 10.666 19.7536 10.5195C20.141 10.373 20.3364 9.94021 20.1899 9.55276L18.7868 10.0832ZM13.6536 6.52142C13.2495 6.43018 12.848 6.68374 12.7568 7.08778C12.6655 7.49182 12.9191 7.89333 13.3231 7.98458L13.6536 6.52142ZM16.5696 11.1774C16.6676 11.5799 17.0733 11.8267 17.4757 11.7287C17.8782 11.6307 18.125 11.2251 18.0271 10.8226L16.5696 11.1774ZM14.335 5.70591C16.3882 6.44286 18.0153 8.04271 18.7868 10.0832L20.1899 9.55276C19.2631 7.10139 17.3084 5.17942 14.8417 4.29409L14.335 5.70591ZM13.3231 7.98458C14.9238 8.34607 16.1815 9.58301 16.5696 11.1774L18.0271 10.8226C17.5042 8.67475 15.8098 7.0084 13.6536 6.52142L13.3231 7.98458Z" fill="#474748"></path> </g></svg>
+                  021-53447786
+              </a></li>
+              <li class="nav-item mb-md-3 mb-2"><a href="#" class="nav-link p-0 text-dark">
+                  <svg class="me-2" width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=stroke"> <g id="email"> <path id="vector (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M3.88534 5.2371C3.20538 5.86848 2.75 6.89295 2.75 8.5V15.5C2.75 17.107 3.20538 18.1315 3.88534 18.7629C4.57535 19.4036 5.61497 19.75 7 19.75H17C18.385 19.75 19.4246 19.4036 20.1147 18.7629C20.7946 18.1315 21.25 17.107 21.25 15.5V8.5C21.25 6.89295 20.7946 5.86848 20.1147 5.2371C19.4246 4.59637 18.385 4.25 17 4.25H7C5.61497 4.25 4.57535 4.59637 3.88534 5.2371ZM2.86466 4.1379C3.92465 3.15363 5.38503 2.75 7 2.75H17C18.615 2.75 20.0754 3.15363 21.1353 4.1379C22.2054 5.13152 22.75 6.60705 22.75 8.5V15.5C22.75 17.393 22.2054 18.8685 21.1353 19.8621C20.0754 20.8464 18.615 21.25 17 21.25H7C5.38503 21.25 3.92465 20.8464 2.86466 19.8621C1.79462 18.8685 1.25 17.393 1.25 15.5V8.5C1.25 6.60705 1.79462 5.13152 2.86466 4.1379Z" fill="#474748"></path> <path id="vector (Stroke)_2" fill-rule="evenodd" clip-rule="evenodd" d="M19.3633 7.31026C19.6166 7.63802 19.5562 8.10904 19.2285 8.3623L13.6814 12.6486C12.691 13.4138 11.3089 13.4138 10.3185 12.6486L4.77144 8.3623C4.44367 8.10904 4.38328 7.63802 4.63655 7.31026C4.88982 6.98249 5.36083 6.9221 5.6886 7.17537L11.2356 11.4616C11.6858 11.8095 12.3141 11.8095 12.7642 11.4616L18.3113 7.17537C18.6391 6.9221 19.1101 6.98249 19.3633 7.31026Z" fill="#474748"></path> </g> </g> </g></svg>
+                  AraMod@gmail.com
+              </a></li>
+              <li class="nav-item mb-md-3 mb-2"><a href="#" class="nav-link p-0 text-dark ">
+                  <svg class="me-2" width="16px" height="16px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#474748" d="M5.67326018,0 C6.0598595,0 6.37326018,0.31324366 6.37326018,0.699649298 L6.373,2.009 L13.89,2.009 L13.8901337,0.708141199 C13.8901337,0.321735562 14.2035343,0.00849190182 14.5901337,0.00849190182 C14.976733,0.00849190182 15.2901337,0.321735562 15.2901337,0.708141199 L15.29,2.009 L18,2.00901806 C19.1045695,2.00901806 20,2.90399995 20,4.00801605 L20,18.001002 C20,19.1050181 19.1045695,20 18,20 L2,20 C0.8954305,20 0,19.1050181 0,18.001002 L0,4.00801605 C0,2.90399995 0.8954305,2.00901806 2,2.00901806 L4.973,2.009 L4.97326018,0.699649298 C4.97326018,0.31324366 5.28666085,0 5.67326018,0 Z M1.4,7.742 L1.4,18.001002 C1.4,18.3322068 1.66862915,18.6007014 2,18.6007014 L18,18.6007014 C18.3313708,18.6007014 18.6,18.3322068 18.6,18.001002 L18.6,7.756 L1.4,7.742 Z M6.66666667,14.6186466 L6.66666667,16.284778 L5,16.284778 L5,14.6186466 L6.66666667,14.6186466 Z M10.8333333,14.6186466 L10.8333333,16.284778 L9.16666667,16.284778 L9.16666667,14.6186466 L10.8333333,14.6186466 Z M15,14.6186466 L15,16.284778 L13.3333333,16.284778 L13.3333333,14.6186466 L15,14.6186466 Z M6.66666667,10.6417617 L6.66666667,12.3078931 L5,12.3078931 L5,10.6417617 L6.66666667,10.6417617 Z M10.8333333,10.6417617 L10.8333333,12.3078931 L9.16666667,12.3078931 L9.16666667,10.6417617 L10.8333333,10.6417617 Z M15,10.6417617 L15,12.3078931 L13.3333333,12.3078931 L13.3333333,10.6417617 L15,10.6417617 Z M4.973,3.408 L2,3.40831666 C1.66862915,3.40831666 1.4,3.67681122 1.4,4.00801605 L1.4,6.343 L18.6,6.357 L18.6,4.00801605 C18.6,3.67681122 18.3313708,3.40831666 18,3.40831666 L15.29,3.408 L15.2901337,4.33697436 C15.2901337,4.72338 14.976733,5.03662366 14.5901337,5.03662366 C14.2035343,5.03662366 13.8901337,4.72338 13.8901337,4.33697436 L13.89,3.408 L6.373,3.408 L6.37326018,4.32848246 C6.37326018,4.7148881 6.0598595,5.02813176 5.67326018,5.02813176 C5.28666085,5.02813176 4.97326018,4.7148881 4.97326018,4.32848246 L4.973,3.408 Z" fill="#474748"></path> </g></svg>
+                  شنبه تا پنج شنبه
+              </a></li>
+              <li class="nav-item mb-md-3 mb-2"><a href="#" class="nav-link p-0 text-dark">
+                  <svg class="me-2" width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="#474748" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12 6V12" stroke="#474748" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M16.24 16.24L12 12" stroke="#474748" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                  24 ساعت شبانه روز</a></li>
+              </ul>
+          </div>
+  
+          <div class="col-3 offset-1">
+              <form>
+              <h5>همراه ما باشید</h5>
+              <p class="mt-md-4 md-3">برای اطلاع از آخرین تخفیف ها ، موجودی ها و  محصولات برتر عضو خبرنامه شوید</p>
+              <div class="bg-white rounded-10 border d-flex w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control " placeholder="ایمیل خود را وارد کنید">
+                  <button class="btn bg-btn text-white rounded-10 px-sm-3 px-1 m-1" type="button">ارسال</button>
+              </div>
+              </form>
+              <div class="row mt-4 justify-content-between">
+              <div class=" col-md-6 d-flex justify-content-between">
+                  <svg width="40px" height="40px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="512" cy="512" r="512" style="fill:#e4405f"></circle> <path d="M512 256c-69.5 0-78.2.3-105.5 1.5-27.3 1.3-45.8 5.6-62.1 11.9-16.8 6.5-31.1 15.3-45.4 29.5s-23 28.5-29.5 45.4c-6.3 16.3-10.6 34.9-11.9 62.1-1.3 27.3-1.5 36-1.5 105.5s.3 78.2 1.5 105.5c1.3 27.2 5.6 45.8 11.9 62.1 6.5 16.8 15.3 31.1 29.5 45.4 14.2 14.2 28.5 23 45.4 29.5 16.3 6.3 34.9 10.6 62.1 11.9 27.3 1.3 36 1.5 105.5 1.5s78.2-.3 105.5-1.5c27.2-1.3 45.8-5.6 62.1-11.9 16.8-6.5 31.1-15.3 45.4-29.5 14.2-14.2 23-28.5 29.5-45.4 6.3-16.3 10.6-34.9 11.9-62.1 1.3-27.3 1.5-36 1.5-105.5s-.3-78.2-1.5-105.5c-1.3-27.2-5.6-45.8-11.9-62.1-6.5-16.8-15.3-31.1-29.5-45.4-14.2-14.2-28.5-23-45.4-29.5-16.3-6.3-34.9-10.6-62.1-11.9-27.3-1.2-36-1.5-105.5-1.5zm0 46.1c68.3 0 76.5.3 103.5 1.5 25 1.2 38.5 5.3 47.5 8.9 12 4.6 20.5 10.2 29.5 19.1 8.9 9 14.5 17.5 19.1 29.5 3.5 9 7.7 22.5 8.8 47.5 1.2 27 1.5 35.1 1.5 103.5s-.3 76.5-1.6 103.5c-1.3 25-5.5 38.5-9 47.5-4.8 12-10.2 20.5-19.2 29.5-8.9 8.9-17.6 14.5-29.4 19.1-9 3.5-22.7 7.7-47.7 8.8-27.2 1.2-35.2 1.5-103.7 1.5s-76.5-.3-103.7-1.6c-25-1.3-38.7-5.5-47.7-9-12.1-4.8-20.5-10.2-29.4-19.2-9-8.9-14.7-17.6-19.2-29.4-3.5-9-7.7-22.7-9-47.7-1-26.9-1.3-35.2-1.3-103.3 0-68.2.3-76.5 1.3-103.7 1.3-25 5.4-38.7 9-47.7 4.5-12.2 10.2-20.5 19.2-29.5 8.9-8.9 17.3-14.7 29.4-19.2 9-3.5 22.4-7.7 47.4-9 27.2-1 35.2-1.3 103.7-1.3l1 .7zm0 78.4c-72.6 0-131.5 58.9-131.5 131.5S439.4 643.5 512 643.5 643.5 584.6 643.5 512 584.6 380.5 512 380.5zm0 216.8c-47.1 0-85.3-38.2-85.3-85.3s38.2-85.3 85.3-85.3 85.3 38.2 85.3 85.3-38.2 85.3-85.3 85.3zm167.4-221.9c0 17-13.8 30.7-30.7 30.7-17 0-30.7-13.8-30.7-30.7s13.8-30.7 30.7-30.7c16.9-.1 30.7 13.7 30.7 30.7z" style="fill:#fff"></path> </g></svg>
+                  <svg width="40px" height="40px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M128,0 C57.307,0 0,57.307 0,128 L0,128 C0,198.693 57.307,256 128,256 L128,256 C198.693,256 256,198.693 256,128 L256,128 C256,57.307 198.693,0 128,0 L128,0 Z" fill="#40B3E0"> </path> <path d="M190.2826,73.6308 L167.4206,188.8978 C167.4206,188.8978 164.2236,196.8918 155.4306,193.0548 L102.6726,152.6068 L83.4886,143.3348 L51.1946,132.4628 C51.1946,132.4628 46.2386,130.7048 45.7586,126.8678 C45.2796,123.0308 51.3546,120.9528 51.3546,120.9528 L179.7306,70.5928 C179.7306,70.5928 190.2826,65.9568 190.2826,73.6308" fill="#FFFFFF"> </path> <path d="M98.6178,187.6035 C98.6178,187.6035 97.0778,187.4595 95.1588,181.3835 C93.2408,175.3085 83.4888,143.3345 83.4888,143.3345 L161.0258,94.0945 C161.0258,94.0945 165.5028,91.3765 165.3428,94.0945 C165.3428,94.0945 166.1418,94.5735 163.7438,96.8115 C161.3458,99.0505 102.8328,151.6475 102.8328,151.6475" fill="#D2E5F1"> </path> <path d="M122.9015,168.1154 L102.0335,187.1414 C102.0335,187.1414 100.4025,188.3794 98.6175,187.6034 L102.6135,152.2624" fill="#B5CFE4"> </path> </g> </g></svg>
+                  <svg height="40px" width="40px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#75B73B;" cx="256" cy="256" r="256"></circle> <path style="fill:#52891D;" d="M360.241,151.826c-14.843-3.712-36.671-16.532-50.8-21.671 c-55.165-17.239-129.293-3.448-149.98,60.337c-1.724,1.724-5.172,1.724-6.896,1.724c-41.374,48.269-13.791,106.882-17.239,160.323 c-1.177,18.839-11.083,35.497-23.831,49.588l107.282,107.17C230.931,511.067,243.355,512,256,512 c126.436,0,231.452-91.665,252.247-212.161L360.241,151.826z"></path> <g> <path style="fill:#FFFFFF;" d="M248.837,108.447c-78.029,3.712-139.604,68.696-139.369,146.811 c0.072,23.792,5.816,46.249,15.95,66.095l-15.557,75.514c-0.841,4.086,2.843,7.663,6.901,6.701l73.995-17.53 c19.011,9.471,40.364,14.939,62.962,15.284c79.753,1.219,146.251-62.105,148.74-141.829 C405.121,174.035,334.591,104.362,248.837,108.447L248.837,108.447z M337.13,335.936c-21.669,21.669-50.483,33.604-81.13,33.604 c-17.944,0-35.126-4.027-51.066-11.966l-10.302-5.134l-45.37,10.747l9.549-46.356l-5.075-9.943 c-8.276-16.206-12.472-33.728-12.472-52.084c0-30.648,11.935-59.459,33.604-81.13c21.476-21.478,50.759-33.604,81.134-33.604 c30.644,0,59.458,11.935,81.127,33.604c21.669,21.669,33.604,50.483,33.604,81.127C370.735,285.177,358.607,314.459,337.13,335.936 L337.13,335.936z"></path> <path style="fill:#FFFFFF;" d="M327.115,286.582l-28.384-8.149c-3.729-1.069-7.749-0.01-10.468,2.76l-6.942,7.07 c-2.926,2.984-7.366,3.941-11.24,2.374c-13.427-5.434-41.672-30.548-48.881-43.106c-2.084-3.624-1.739-8.152,0.817-11.462 l6.058-7.839c2.374-3.07,2.874-7.197,1.305-10.747l-11.941-27.008c-2.86-6.468-11.126-8.352-16.527-3.784 c-7.921,6.701-17.32,16.88-18.461,28.16c-2.015,19.887,6.515,44.954,38.762,75.055c37.257,34.778,67.094,39.369,86.523,34.664 c11.019-2.667,19.825-13.365,25.379-22.126C336.906,296.467,333.91,288.535,327.115,286.582L327.115,286.582z"></path> </g> <g> <path style="fill:#D1D1D1;" d="M356.004,147.708l-22.223,22.778c1.131,1.045,2.257,2.096,3.351,3.191 c21.67,21.669,33.604,50.483,33.604,81.127c0,30.375-12.128,59.656-33.604,81.134c-21.669,21.669-50.483,33.604-81.13,33.604 c-17.944,0-35.125-4.027-51.066-11.966l-10.302-5.134l-45.37,10.747l0.938-4.553l-40.174,41.172 c0.886,2.663,3.705,4.475,6.734,3.758l73.995-17.53c19.011,9.471,40.364,14.939,62.962,15.284 c79.753,1.219,146.253-62.105,148.74-141.829C403.834,215.357,385.686,175.435,356.004,147.708z"></path> <path style="fill:#D1D1D1;" d="M327.115,286.582l-28.384-8.149c-3.729-1.069-7.749-0.01-10.468,2.76l-6.942,7.07 c-2.926,2.984-7.366,3.941-11.24,2.374c-7.756-3.139-20.451-12.845-31.185-22.904l-19.732,20.225 c0.677,0.648,1.352,1.295,2.05,1.948c37.257,34.778,67.094,39.369,86.523,34.664c11.019-2.667,19.825-13.365,25.379-22.126 C336.906,296.467,333.91,288.535,327.115,286.582z"></path> </g> </g></svg>
+              </div>
+              <div class="col-md-6"></div>
+              </div>
+          </div>    
+          <hr class="hr-nav w-50 d-md-block  d-none  mt-4">
+          </div>
+  
+          <div class="  pb-0  d-md-block  d-none">
+          <p class="text-center small text-muted"><span class="text-d-blue fs-5"> © </span>
+              تمامی حقوق این وبسایت محفوظ است
+              .</p>
+          
+          
+          </div>
+      </footer>
+      </div>
+    <script src="./js/jquery-3.7.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/app.js"></script>
+  
+    
+
+
+
+
+   
+  </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="./css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body dir="rtl">
+    <div class="container">
+        <div class="progress-wrapper" >
+            <div id="progress-bar-container">
+              <ul>
+                <li class="step step01 active-cart">
+                  <div class="step-inner">سبد خرید</div>
+                </li>
+                <li class="step step02">
+                  <div class="step-inner"> پرداخت</div>
+                </li>
+              
+              </ul>
+              <div id="line">
+                <div id="line-progress"></div>
+              </div>
+              <!-- progress-bar-container -->
+              <div id="progress-content-section" >
+                <div class="section-content step1 active-cart">
+                    <table class="table ">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">نام محصول</th>
+                            <th scope="col">قیمت</th>
+                           
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>اپل واچ سری 9</td>
+                            <td>23.600.000 </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>آیپد مینی 2021</td>
+                            <td>  25.300.000 </td>
+                          </tr>
+                        </tbody>
+                    </table>
+                    <div class="d-flex justify-content-between m-sm-5 m-1 mb-4 font-small">
+                     <div >مجموع خرید</div>
+                     <div class="fw-bold ">48.900.000</div>
+                    </div>
+                     <div class="d-flex justify-content-between mx-sm-5 mx-1 mb-4 text-muted font-small">
+                     <div> هزینه ی نقل و انتقال </div><div class="">200.000 </div>
+                    </div>
+                    <div class="d-flex justify-content-between mx-sm-5 mx-1 mb-sm-5 mb-4 font-small">
+                     <div> مبلغ قابل پرداخت </div>
+                     <div class="text-danger fw-bold">  49.100.000</div>
+                    </div>
+                    <div class="btn bg-btn text-white d-block mb-4" onclick="next()">بعدی</div>
+                    
+                </div>
+                <div class="section-content step2">
+                    <div class="d-flex justify-content-between">
+                    <div class="btn btn-warning text-white d-block mb-4" onclick="prevate()">قبلی</div>
+                    <div class="btn bg-btn text-white d-block mb-4" onclick="next()">بعدی</div>
+                    </div>
+
+                </div>
+               
+              </div>
+            </div>
+            <!-- progress-wrapper -->
+          </div>
+          
+          
+         
+    </div>
+    <script src="./js/jquery-3.7.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script>
+        $(".step").click(function () {
+  $(this).addClass("active-cart").prevAll().addClass("active-cart");
+  $(this).nextAll().removeClass("active-cart");
+});
+
+
+
+
+
+function next(){
+      $("#line-progress").css("width", "100%");
+  $(".step2").addClass("active-cart").siblings().removeClass("active-cart");
+}
+function prevate(){
+    $("#line-progress").css("width", "50%");
+  $(".step1").addClass("active-cart").siblings().removeClass("active-cart");
+}
+    </script>
+</body>
+</html>
